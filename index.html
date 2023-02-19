@@ -16,12 +16,13 @@
 
 <body>
     <header>
-        <div class="container w-[1140px] mx-auto">
-            <div class="py-6  flex justify-between items-center ">
-                <div class="flex items-center">
+        <div class="container  w-[1140px] mx-auto">
+            <div class="py-6 sm:flex justify-between items-center ">
+                <div class=" flex items-center">
                     <img class="w-[165px] h-[29px]" src="./img/icons/header-logo.svg" alt="">
-                    <span class="w-[1px] h-[35px] bg-blue-400 inline-block ml-[30px]"></span>
-                    <p class="w-[151px] ml-[16px]  text-[14px] text-[#5A5A5A;] font-[600]">Услуги грузчиков,
+                    <span class="  w-[1px] h-[35px]  bg-blue-400 inline-block ml-[30px]"></span>
+                    <p class="w-[151px] ml-[16px]   text-[14px] text-[#5A5A5A;] font-[600]">Услуги
+                        грузчиков,
                         скидки, кэшбэк </p>
                 </div>
                 <div class="flex items-center">
@@ -64,34 +65,36 @@
                 <span><a href="#">Вакансии</a></span>
                 <span class="flex items-center gap-2 modal-span"><a href="#">О компании </a><img
                         class="w-[24px] h-[24px]" src="./img/icons/header-vector.svg" alt="">
-                    <div class="modal p-5 bg-white rounded-lg">
-                        <h1
-                            class="text-center text-[30px] w-[456px] mx-auto font-[800;] tracking-[0.02em;] leading-[130%;]">
-                            Оставьте
-                            свой честный отзыв о
-                            нашей
-                            компании</h1>
-                        <form action="https://dominant-edu.com/ru/xidmetler/">
-                            <div class="flex gap-4 items-center mt-8">
-                                <input class="p-[10px] w-[300px] outline-none bg-[#E6EDFE]" type="name"
-                                    placeholder="Ваше имя">
-                                <input class="p-[10px] w-[300px] outline-none bg-[#E6EDFE]" type="tel"
-                                    placeholder="+7 9ххх ххх хх хх">
-                            </div>
-                            <input class="h-[204px] w-[615px] outline-none bg-[#E6EDFE] mt-[23px] model-input"
-                                type="text" placeholder="Введите текст отзыва">
-                            <div>
-                                <div class="flex gap-2 mt-[65px] items-center">
-                                    <input type="checkbox">
-                                    <p class=" w-[345px] text-[12px]">Отправляя форму Вы соглашаетесь с обработкой
-                                        персональных данных и политикой
-                                        конфеденциальности</p>
-                                    <button
-                                        class="px-[32px] py-[13px] bg-blue-500 rounded-[8px] text-white  hover:bg-blue-500 hover:text-black active:bg-blue-300">Отправить
-                                        отзыв</button>
+                    <div class="modal__wrapper">
+                        <div class="modal p-5 bg-white rounded-lg">
+                            <h1
+                                class="text-center text-[30px] w-[456px] mx-auto font-[800;] tracking-[0.02em;] leading-[130%;]">
+                                Оставьте
+                                свой честный отзыв о
+                                нашей
+                                компании</h1>
+                            <form action="https://dominant-edu.com/ru/xidmetler/">
+                                <div class="flex gap-4 items-center mt-8">
+                                    <input class="p-[10px] w-[300px] outline-none bg-[#E6EDFE]" type="name"
+                                        placeholder="Ваше имя">
+                                    <input class="p-[10px] w-[300px] outline-none bg-[#E6EDFE]" type="tel"
+                                        placeholder="+7 9ххх ххх хх хх">
                                 </div>
-                            </div>
-                        </form>
+                                <input class="h-[204px] w-[615px] outline-none bg-[#E6EDFE] mt-[23px] model-input"
+                                    type="text" placeholder="Введите текст отзыва">
+                                <div>
+                                    <div class="flex gap-2 mt-[65px] items-center">
+                                        <input type="checkbox">
+                                        <p class=" w-[345px] text-[12px]">Отправляя форму Вы соглашаетесь с обработкой
+                                            персональных данных и политикой
+                                            конфеденциальности</p>
+                                        <button
+                                            class="px-[32px] py-[13px] bg-blue-500 rounded-[8px] text-white  hover:bg-blue-500 hover:text-black active:bg-blue-300">Отправить
+                                            отзыв</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </span>
                 <span><a href="#">Новости</a></span>
@@ -741,19 +744,206 @@
                             class="w-[370px] bg-[#F4F6F8;] rounded-[8px] flex flex-col items-center justify-center  popular__wrapper pt-[60px] px-[30px] pb-[42px]">
                             <div class="w-[70px] h-[70px] bg-white rounded-[50%] flex justify-center items-center">
                                 <img class="w-[69px] h-[41px]" src="./img/icons/popular-logo.svg" alt=""></div>
-                            <p class="text-[24px] font-[700] mt-[30px] text-[#090E18]; text-center">Квартирный переезд с грузчиками
+                            <p class="text-[24px] font-[700] mt-[30px] text-[#090E18]; text-center">Квартирный переезд с
+                                грузчиками
                             </p>
                             <button
                                 class="py-[10px] px-[16px] bg-[#014DF5;]  text-white font-[700] leading-[19px] rounded-[4px] mt-[31px] hover:bg-blue-300 hover:text-black">от
                                 250 ₽ / час</button>
-
                         </div>
+                    </div>
+                </div>
+                <div class="flex items-center mt-[232px]">
+                    <div>
+                        <img src="./img/icons/main-logo.svg" alt="">
+                        <h2 class="w-[230px] text-[46px] text-[#050505;] font-[800] mt-[10px] leading-[130%]">Новости
+                            компании</h2>
+                        <button
+                            class="py-[14px] px-[64px] bg-[#014DF5;] mt-[41px] rounded-[10px] text-white hover:bg-blue-400 hover:text-black">Читать
+                            все</button>
+                    </div>
+                    <div class="w-[360px] ml-[154px] new__wrapper text-center">
+                        <img class="w-[360px] mx-auto h-[181px] " src="./img/new-img1.png" alt="">
+                        <div class="flex items-center ml-[20px]">
+                            <span class="text-[14px] text-[#014DF5;] font-[700]">22.09.21</span>
+                            <div class="flex items-center ml-[180px]">
+                                <img src="./img/icons/new-eye.svg" alt="">
+                                <span class="ml-[10px] text-[#BDBDBD;] text-[14px]">(123)</span>
+                            </div>
+                        </div>
+                        <p class="mt-[15px] text-[20px] text-[#050505;] font-[700]">Как осуществляется сборка/ <br>
+                            разборка мебели</p>
+                        <p class="text-[14px] font-[500] text-[#5A5A5A;] mt-[8px]">Разбираем, собираем мебель. Укажите
+                            данную
+                            услугу при составлении заявки и грузчики ...</p>
+                        <p class="text-[#014DF5;] text-[14px] font-[700] leading-[48px] tracking-[0.02em;]">Читать далее
+                            ></p>
+                    </div>
+                    <div class="w-[360px] new__wrapper text-center">
+                        <img class="w-[360px] mx-auto h-[181px] " src="./img/new-img2.png" alt="">
+                        <div class="flex items-center ml-[20px]">
+                            <span class="text-[14px] text-[#014DF5;] font-[700]">22.09.21</span>
+                            <div class="flex items-center ml-[180px]">
+                                <img src="./img/icons/new-eye.svg" alt="">
+                                <span class="ml-[10px] text-[#BDBDBD;] text-[14px]">(123)</span>
+                            </div>
+                        </div>
+                        <p class="mt-[15px] text-[20px] text-[#050505;] font-[700]">Как осуществляется сборка/ <br>
+                            разборка мебели</p>
+                        <p class="text-[14px] font-[500] text-[#5A5A5A;] mt-[8px]">Разбираем, собираем мебель. Укажите
+                            данную
+                            услугу при составлении заявки и грузчики ...</p>
+                        <p class="text-[#014DF5;] text-[14px] font-[700] leading-[48px] tracking-[0.02em;]">Читать далее
+                            ></p>
                     </div>
                 </div>
             </div>
         </section>
         <!-- end-section-help-->
     </main>
+    <footer>
+        <div class="container w-[1140px] mx-auto">
+            <div class="w-[1140px] bg-[#014DF5;] py-[73px] px-[70px] mt-[110px] rounded-[10px;] flex items-center">
+                <div>
+                    <h2 class="text-white text-[40px] font-[800] leading-[130%]">Получить консультацию </h2>
+                    <img class="mt-[21px]" src="./img/icons/main-logo-white.svg" alt="">
+                    <p class="mt-[32px] text-white text-[22px] font-[600] leading-[130%]">Закажите бесплатную
+                        консультацию на сайте или <br> позвоните нам прямо сейчас. Мы ответим на все <br> ваши
+                        вопросы и предложим выгодную цену.</p>
+                </div>
+                <div class="ml-[90px] w-[350px]">
+                    <form action="https://google.com">
+                        <input class="p-[16px] w-[350px] bg-[#3775FF;] rounded-[6px]" type="tel"
+                            placeholder="+7 9ххх ххх хх хх">
+                        <button
+                            class="py-[16px] w-[350px] mt-[20px] rounded-[6px] bg-white text-[18px] font-[700]">Отправить</button>
+                        <div class="mt-[31px] flex items-center gap-[6px]">
+                            <input type="checkbox">
+                            <p class="text-[10px] text-white font-[400]">Отправляя форму Вы соглашаетесь с обработкой
+                                персональных данных и
+                                политикой
+                                конфеденциальности</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="flex mt-[90px] items-stretch">
+                <div>
+                    <img class="w-[135px] h-[24px]" src="./img/icons/header-logo.svg" alt="">
+                    <p class="flex items-center gap-[8px] mt-[22px]"><img class="w-[24px] h-[24px]"
+                            src="./img/icons/Phone.svg" alt=""><a class="text-[18px] font-[800]" href="8 800 000 00 00"
+                            target="_blank">8 800 000 00 00</a></p>
+                    <p class="mt-[12px] flex items-center gap-[11px]"><img class="w-[24px] h-[24px]"
+                            src="./img/icons/pochta.svg" alt=""><a
+                            class="underline underline-offset-4  text-[14px] text-[#050505;] font-[600]"
+                            href="info@dominant24.ru" target="_blank">info@dominant24.ru</a></p>
+                    <p class="mt-[12px] flex items-center gap-[15px]"><img class="w-[17px] h-[14px] ml-[2px]"
+                            src="./img/icons/sms.svg" alt=""><a
+                            class="underline underline-offset-4 text-[14px] text-[#050505;] font-[600]"
+                            href="info@dominant24.ru" target="_blank">Оставить отзыв</a></p>
+                    <p class="mt-[12px] flex items-center gap-[11px]"><img class="w-[24px] h-[24px]"
+                            src="./img/icons/Clock.svg" alt=""><a
+                            class="underline underline-offset-4 text-[14px] text-[#050505;] font-[600]"
+                            href="info@dominant24.ru" target="_blank">Работаем круглосуточно</a></p>
+                    <div class="flex mt-[8px] items-center gap-[12px]">
+                        <p>Напишите нам:</p><img class="w-[20px] h-[17px]" src="./img/icons/header-Telegram.svg" alt="">
+                        <img class="w-[19px] h-[19px] mr-[5px]" src="./img/icons/header-Whatsapp.svg" alt="">
+                    </div>
+                </div>
+                <div class="ml-[80px]">
+                    <h1 class="text-[18px] font-[800] text-[#2347DA;]">УСЛУГИ</h1>
+                    <p
+                        class="mt-[20px] text-[16px] font-[600] hover:text-blue-600 hover:underline decoration-solid  text-[#050505;] leading-[ 240%;] tracking-[0.01em;]">
+                        О
+                        <a href="#">компании</a> </p>
+                    <p
+                        class="text-[16px] mt-[12px] font-[600] hover:text-blue-600 hover:underline decoration-solid  text-[#050505;] leading-[ 240%;] tracking-[0.01em;]">
+                        <a href="#">Отзывы</a></p>
+                    <p
+                        class="text-[16px] mt-[12px] font-[600] hover:text-blue-600 hover:underline decoration-solid  text-[#050505;] leading-[ 240%;] tracking-[0.01em;]">
+                        <a href="#">Контакты</a></p>
+                    <p
+                        class="text-[16px] mt-[12px] font-[600] hover:text-blue-600 hover:underline decoration-solid  text-[#050505;] leading-[ 240%;] tracking-[0.01em;]">
+                        <a href="#">Вакансии</a></p>
+                    <p
+                        class="text-[16px] mt-[12px] font-[600] hover:text-blue-600 hover:underline decoration-solid  text-[#050505;] leading-[ 240%;] tracking-[0.01em;]">
+                        <a href="#">Новости</a></p>
+                </div>
+                <div class="ml-[82px] mt-[30px]">
+                    <p
+                        class="mt-[20px] text-[16px] font-[600] hover:text-blue-600 hover:underline decoration-solid  text-[#050505;] leading-[ 240%;] tracking-[0.01em;]">
+                        О
+                        <a href="#">Грузчики на час</a> </p>
+                    <p
+                        class="text-[16px] mt-[12px] font-[600] hover:text-blue-600 hover:underline decoration-solid  text-[#050505;] leading-[ 240%;] tracking-[0.01em;]">
+                        <a href="#">Автопарк</a></p>
+                    <p
+                        class="text-[16px] mt-[12px] font-[600] hover:text-blue-600 hover:underline decoration-solid  text-[#050505;] leading-[ 240%;] tracking-[0.01em;]">
+                        <a href="#">Квартирный переезд</a></p>
+                    <p
+                        class="text-[16px] mt-[12px] font-[600] hover:text-blue-600 hover:underline decoration-solid  text-[#050505;] leading-[ 240%;] tracking-[0.01em;]">
+                        <a href="#">Дачный переезд</a></p>
+                    <p
+                        class="text-[16px] mt-[12px] font-[600] hover:text-blue-600 hover:underline decoration-solid  text-[#050505;] leading-[ 240%;] tracking-[0.01em;]">
+                        <a href="#">Офисный переезд</a></p>
+                </div>
+                <div class="ml-[63px] mt-[30px]">
+                    <p
+                        class="mt-[20px] text-[16px] font-[600] hover:text-blue-600 hover:underline decoration-solid  text-[#050505;] leading-[ 240%;] tracking-[0.01em;]">
+                        О
+                        <a href="#">Такелаж </a> </p>
+                    <p
+                        class="text-[16px] mt-[12px] font-[600] hover:text-blue-600 hover:underline decoration-solid  text-[#050505;] leading-[ 240%;] tracking-[0.01em;]">
+                        <a href="#">Автопарк</a></p>
+                    <p
+                        class="text-[16px] mt-[12px] font-[600] hover:text-blue-600 hover:underline decoration-solid  text-[#050505;] leading-[ 240%;] tracking-[0.01em;]">
+                        <a href="#">Уборка снега</a></p>
+                    <p
+                        class="text-[16px] mt-[12px] font-[600] hover:text-blue-600 hover:underline decoration-solid  text-[#050505;] leading-[ 240%;] tracking-[0.01em;]">
+                        <a href="#">Перевозка вещей</a></p>
+                    <p
+                        class="text-[16px] mt-[12px] font-[600] hover:text-blue-600 hover:underline decoration-solid  text-[#050505;] leading-[ 240%;] tracking-[0.01em;]">
+                        <a href="#">Переезд с грузчиками</a></p>
+                </div>
+                <div class="ml-[46px]">
+                    <h1 class="text-[18px] font-[800] text-[#2347DA;]">Способы оплаты:</h1>
+                    <p
+                        class="mt-[20px] text-[16px] font-[600] hover:text-blue-600 hover:underline decoration-solid  text-[#050505;] leading-[ 240%;] tracking-[0.01em;]">
+                        О
+                        <a href="#">Наличный</a> </p>
+                    <p
+                        class="text-[16px] mt-[12px] font-[600] hover:text-blue-600 hover:underline decoration-solid  text-[#050505;] leading-[ 240%;] tracking-[0.01em;]">
+                        <a href="#">Безгаличный с НДС</a></p>
+                    <p
+                        class="text-[16px] mt-[12px] font-[600] hover:text-blue-600 hover:underline decoration-solid  text-[#050505;] leading-[ 240%;] tracking-[0.01em;]">
+                        <a href="#">Безналичный без НДС
+                        </a></p>
+                    <p
+                        class="text-[16px] mt-[12px] font-[600] hover:text-blue-600 hover:underline decoration-solid  text-[#050505;] leading-[ 240%;] tracking-[0.01em;]">
+                        <a href="#">Мы в соцсетях:</a></p>
+                    <div class="flex gap-[8px] mt-[7px]">
+                        <a href="https://Instagram.com"><img class="w-[24px] h-[24px]" src="./img/icons/Instagram.svg"
+                                alt=""></a>
+                        <a href="https://Youtube.com"><img class="w-[24px] h-[24px]" src="./img/icons/Youtube.svg"
+                                alt=""></a>
+                        <a href="https://vk.com"><img class="w-[24px] h-[24px]" src="./img/icons/Vk.svg" alt=""></a>
+                        <a href="https://Facebook.com"><img class="w-[24px] h-[24px]" src="./img/icons/Facebook.svg"
+                                alt=""></a>
+                    </div>
+                </div>
+
+            </div>
+            <button
+                class="w-[169px] h-[46px] bg-[#014DF5;] mt-[18px] text-white text-[14px] font-[600] rounded-[6px]">Заказать
+                звонок</button>
+            <div class="w-[1140px] h-[0.5px] border-dashed border-2 border-blue-300 mt-[25px]  opacity-50 mb-[41px]">
+            </div>
+            <p class="text-center mt-[21px] text-[14px] text-[#5A5A5A;] mb-[41px] font-[500]">Информация на данном сайте
+                носит
+                информационный характер и не является офертой. ст. 437 ч. 1 ГК РФ.
+                Все права защищены. © Доминант 2012-2021.</p>
+        </div>
+    </footer>
 </body>
 
 </html>

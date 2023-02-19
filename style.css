@@ -59,12 +59,6 @@ header span {
     border-left: 4px solid blue;
 }
 
-.model-input::placeholder {
-    position: relative;
-    bottom: 80px;
-    left: 10px;
-}
-
 .code-first div:hover {
     background: linear-gradient(225deg, #28C1D6 0%, #014DF5 100%);
     box-shadow: 0px 20px 60px rgba(9, 14, 24, 0.1);
@@ -100,12 +94,15 @@ header span {
     background-color: white;
     color: black;
 }
+.modal__wrapper{
+    position: relative;
 
+}
 .modal {
     display: none;
     position: absolute;
-    top: 140px;
-    left: 400px;
+    left: -650px;
+    top: 10px;
 }
 
 .modal-span:hover .modal {
@@ -117,7 +114,7 @@ header span {
     box-shadow: 0px 20px 60px rgba(9, 14, 24, 0.1);
     border-radius: 8px;
     color: white;
-    transform: scale(1.1);
+    transform: translateY(-15px);
     transition: 0.8s;
 }
 
@@ -130,13 +127,6 @@ header span {
     background-color: white;
     color: black;
     transition: 0.8s;
-}
-
-.city::placeholder {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 26px;
-    color: #050505;
 }
 
 .dominant__wrapper:hover {
@@ -238,4 +228,18 @@ header span {
 .popular__wrapper:hover button {
     background-color: white;
     color: black;
+}
+
+.new__wrapper:hover {
+    background-color: white;
+    box-shadow: 0px 20px 60px rgba(9, 14, 24, 0.1);
+    border-radius: 10px;
+    transform: translateY(-30px);
+    transition: all ease 0.8s;
+}
+
+input::placeholder {
+    color: rgb(71, 69, 69);
+    font-size: 18px;
+
 }
