@@ -1,0 +1,241 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: rgb(219 234 254);
+    font-family: 'Manrope';
+    font-style: normal;
+}
+
+.header__dropdown {
+    position: relative;
+    top: 10px;
+    left: -100px;
+    display: none;
+}
+
+.dropdown-usluga:hover .header__dropdown {
+    display: block;
+}
+
+.header__dropdown-first {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(12.5px);
+    border-radius: 8px;
+    padding: 23px 0;
+    width: 375px;
+}
+
+.header__dropdown-first li {
+    margin: 10px 0;
+    font-weight: 700;
+    padding: 0 25px;
+    font-size: 15px;
+    line-height: 243.6%;
+    color: #4F4F4F;
+}
+
+header span {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #5A5A5A;
+}
+
+.header-block span {
+    padding: 5px 0;
+}
+
+.header-block span:hover {
+    box-shadow: 0 2px 0 0 blue;
+}
+
+.header__dropdown-first li:hover {
+    color: #050505;
+    padding: 0 25px;
+    background: #E6EDFE;
+    border-left: 4px solid blue;
+}
+
+.model-input::placeholder {
+    position: relative;
+    bottom: 80px;
+    left: 10px;
+}
+
+.code-first div:hover {
+    background: linear-gradient(225deg, #28C1D6 0%, #014DF5 100%);
+    box-shadow: 0px 20px 60px rgba(9, 14, 24, 0.1);
+    border-radius: 8px;
+    transform: translateX(-30px);
+    transition: all ease 0.8s;
+}
+
+.code-first div:hover span {
+    color: white;
+}
+
+.code-first div:hover button {
+    border: 1px solid blue;
+    background-color: white;
+    color: black;
+}
+
+.code-second div:hover {
+    background: linear-gradient(225deg, #28C1D6 0%, #014DF5 100%);
+    box-shadow: 0px 20px 60px rgba(9, 14, 24, 0.1);
+    border-radius: 8px;
+    transform: translateX(30px);
+    transition: all ease 0.8s;
+}
+
+.code-second div:hover span {
+    color: white;
+}
+
+.code-second div:hover button {
+    border: 1px solid blue;
+    background-color: white;
+    color: black;
+}
+
+.modal {
+    display: none;
+    position: absolute;
+    top: 140px;
+    left: 400px;
+}
+
+.modal-span:hover .modal {
+    display: block;
+}
+
+.service__wrapper:hover {
+    background: linear-gradient(225deg, #28C1D6 0%, #014DF5 100%);
+    box-shadow: 0px 20px 60px rgba(9, 14, 24, 0.1);
+    border-radius: 8px;
+    color: white;
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+
+.service__wrapper:hover p {
+    color: white;
+    transition: 0.8s;
+}
+
+.service__wrapper:hover button {
+    background-color: white;
+    color: black;
+    transition: 0.8s;
+}
+
+.city::placeholder {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    color: #050505;
+}
+
+.dominant__wrapper:hover {
+    background: #FFFFFF;
+    box-shadow: 5px 5px 20px #F7F8FC;
+    border-radius: 10px;
+    transition: all ease 0.8s;
+    transform: scale(1.2);
+}
+
+.dominant__wrapper:hover span {
+    background: #E6EDFE;
+}
+
+.dokument:hover {
+    transform: scale(1.2);
+    transition: all ease 0.8s;
+}
+
+.reviews__wrapper:hover {
+    background: #FFFFFF;
+    box-shadow: 8px 8px 30px #F3F5FB;
+    border-radius: 10px;
+    transition: all ease 0.8s;
+    transform: scale(1.1);
+}
+
+.review-block {
+    background-image: url("./img/review-img.jpg");
+}
+
+.review-block:hover p {
+    color: blue;
+    transform: scale(1.1);
+    transition: all ease 0.8s;
+}
+
+.review-block-second:hover p {
+    color: blue;
+    transform: scale(1.1);
+    transition: all ease 0.8s;
+}
+
+.review-block-third:hover p {
+    color: blue;
+    transform: scale(1.1);
+    transition: all ease 0.8s;
+}
+
+.review-block:hover {
+    transition: all ease 0.8s;
+    transform: scale(1.1);
+}
+
+.review-block-second:hover {
+    transition: all ease 0.8s;
+    transform: scale(1.1);
+}
+
+.review-block-third:hover {
+    transition: all ease 0.8s;
+    transform: scale(1.1);
+}
+
+.review-block-second {
+    background-image: url("./img/review-img2..png");
+}
+
+.review-block-third {
+    background-image: url("./img/review-img3.jpg");
+}
+
+.help__wrapper:hover {
+    transform: scale(1.1);
+    transition: all ease 0.8s;
+    background: linear-gradient(225deg, #28C1D6 0%, #014DF5 100%);
+    box-shadow: 0px 20px 60px rgba(9, 14, 24, 0.1);
+}
+
+.help__wrapper:hover p {
+    color: white;
+    transform: scale(1.1);
+    transition: all ease 0.8s;
+}
+
+.popular__wrapper:hover {
+    background: linear-gradient(225deg, #28C1D6 0%, #014DF5 100%);
+    box-shadow: 0px 20px 60px rgba(9, 14, 24, 0.1);
+    transform: scale(1.1);
+    transition: all ease 0.8s;
+}
+
+.popular__wrapper:hover p {
+    transform: scale(1.1);
+    transition: all ease 0.8s;
+    color: white;
+}
+
+.popular__wrapper:hover button {
+    background-color: white;
+    color: black;
+}

@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <title>dominant</title>
+</head>
+
+<body>
+    <header>
+        <div class="container w-[1140px] mx-auto">
+            <div class="py-6  flex justify-between items-center ">
+                <div class="flex items-center">
+                    <img class="w-[165px] h-[29px]" src="./img/icons/header-logo.svg" alt="">
+                    <span class="w-[1px] h-[35px] bg-blue-400 inline-block ml-[30px]"></span>
+                    <p class="w-[151px] ml-[16px]  text-[14px] text-[#5A5A5A;] font-[600]">Услуги грузчиков,
+                        скидки, кэшбэк </p>
+                </div>
+                <div class="flex items-center">
+                    <span class="w-[1px] h-[35px] bg-blue-400 inline-block ml-[30px]"></span>
+                    <div class="ml-2">
+                        <h4 class="w[125px] text-[18px] font-[700] text-[#050505;]">Екатеринбург</h4>
+                        <p class="w-[125x] text-[12px] text-[#5A5A5A;] font-[400]">Выбрать город</p>
+                    </div>
+                    <span class="w-[1px] h-[35px] bg-blue-400 inline-block ml-[46px]"></span>
+                    <div class="ml-[10px]">
+                        <h4 class=" text-[18px] font-[700] text-[#050505;]">8 800-321-56-78</h4>
+                        <p class="text-[12px] leading-[16px;] text-[#5A5A5A;] font-[400]">Работаем круглосуточно,
+                            24/7</p>
+                    </div>
+                    <img class="w-[31px] h-[31px] ml-[31px]" src="./img/icons/header-Telegram.svg" alt="">
+                    <img class="w-[31px] h-[31px] ml-[14px]" src="./img/icons/header-Whatsapp.svg   " alt="">
+                    <button
+                        class="py-2 px-5 bg-[#014DF5] ml-[20px] text-white rounded-lg hover:bg-blue-300 hover:text-black">Заказать
+                        звонок</button>
+                </div>
+            </div>
+            <div class="w-[1140px] h-[0.5px] border-dashed border-2 border-blue-300 relative top-[50px] opacity-25">
+            </div>
+            <div class="flex mt-[15px] text-[15px] justify-between header-block">
+                <span class="flex items-center gap-1 dropdown-usluga"><a href="#">Услуги </a><img
+                        class="w-[24px] h-[24px]" src="./img/icons/header-vector.svg" alt="">
+                    <div class="header__dropdown">
+                        <ul class="header__dropdown-first">
+                            <li>Такелаж</li>
+                            <li>Вывоз мусора</li>
+                            <li>Уборка снега</li>
+                            <li>Перевозка вещей</li>
+                            <li>Переезд с грузчиками</li>
+                        </ul>
+                    </div>
+                </span>
+                <span class="flex items-center gap-1"><a href="#">Автопарк </a></span>
+                <span><a href="#">Разнорабочие</a></span>
+                <span><a href="#">Уборка и клининг</a></span>
+                <span><a href="#">Вакансии</a></span>
+                <span class="flex items-center gap-2 modal-span"><a href="#">О компании </a><img
+                        class="w-[24px] h-[24px]" src="./img/icons/header-vector.svg" alt="">
+                    <div class="modal p-5 bg-white rounded-lg">
+                        <h1
+                            class="text-center text-[30px] w-[456px] mx-auto font-[800;] tracking-[0.02em;] leading-[130%;]">
+                            Оставьте
+                            свой честный отзыв о
+                            нашей
+                            компании</h1>
+                        <form action="https://dominant-edu.com/ru/xidmetler/">
+                            <div class="flex gap-4 items-center mt-8">
+                                <input class="p-[10px] w-[300px] outline-none bg-[#E6EDFE]" type="name"
+                                    placeholder="Ваше имя">
+                                <input class="p-[10px] w-[300px] outline-none bg-[#E6EDFE]" type="tel"
+                                    placeholder="+7 9ххх ххх хх хх">
+                            </div>
+                            <input class="h-[204px] w-[615px] outline-none bg-[#E6EDFE] mt-[23px] model-input"
+                                type="text" placeholder="Введите текст отзыва">
+                            <div>
+                                <div class="flex gap-2 mt-[65px] items-center">
+                                    <input type="checkbox">
+                                    <p class=" w-[345px] text-[12px]">Отправляя форму Вы соглашаетесь с обработкой
+                                        персональных данных и политикой
+                                        конфеденциальности</p>
+                                    <button
+                                        class="px-[32px] py-[13px] bg-blue-500 rounded-[8px] text-white  hover:bg-blue-500 hover:text-black active:bg-blue-300">Отправить
+                                        отзыв</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </span>
+                <span><a href="#">Новости</a></span>
+                <span><a href="#">Контакты</a></span>
+                <span class="flex items-center gap-[10px]">Еще <img class="w-4 h-[15px]"
+                        src="./img/icons/header-burger.svg" alt=""></span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container w-[1140px] mx-auto">
+            <div class="flex items-center">
+                <div class="mt-[109px]">
+                    <img class="w-[78px] h-[15px]" src="./img/icons/main-logo.svg" alt="">
+                    <h2 class="w-[635px] text-[46px] font-extrabold tracking-[0.02rem]">Услуги грузчиков в городе
+                        Екатеринбурге</h2>
+                    <p class="mt-[42px] w-[520px] text-[24px] font-[500px] text-[#5A5A5A;]">Услуги грузчиков в
+                        городе
+                        Екатеринбурге
+                        Рассчитать стоимость <img class="relative left-[250px] bottom-[10px]"
+                            src="./img/icons/main-vector.svg" alt=""></p>
+                    <div class="mt-[50px] flex gap-3">
+                        <button
+                            class="py-3 px-[36px] bg-[#014DF5;] rounded-[10px] text-white font-[600]  hover:bg-blue-500 hover:text-black">Оставить
+                            заявку</button>
+                        <button
+                            class="py-3 px-[36px] bg-[#014DF5;] rounded-[10px] text-white font-[600]  hover:bg-blue-500 hover:text-black">Калькулятор</button>
+                    </div>
+                </div>
+                <img class="w-[596px] h-[603px] mr-[100px]" src="./img/main-hero.png" alt="">
+            </div>
+            <div class="bg-white mt-[102px] rounded-[8px] w-[1237px] py-[30px] relative">
+                <h2 class="text-[46px] font-[800] mx-[80px] my-[29px]">Цены</h2>
+                <div class="flex flex-wrap my-[56px] mx-[52px] ">
+                    <div class="code-first">
+                        <div
+                            class="w-[549px] bg-[#F5F7FE;] rounded-[15px] py-[30px] px-[20px] flex items-center justify-between">
+                            <span class="text-[#050505;] font-[700] text-[15px] leading-[20px] w-[244px]">Грузчики
+                                для
+                                переезда</span>
+                            <span class="font-[700] text-[20px] leading-[27px] text-[#014DF5;]">от 250 ₽</span>
+                            <button
+                                class="py-[8px] px-[16px] rounded-[6px] bg-[#014DF5;] shadow-[0px 1px 4px rgba(0, 0, 0, 0.06);]э
+                                    text-white font-[700] text-[15px] leading-[20px] hover:bg-blue-300 hover:text-black">Заказать</button>
+                        </div>
+                        <div
+                            class="w-[549px] bg-transparent rounded-[15px] py-[30px] px-[20px] flex items-center justify-between">
+                            <span class="text-[#050505;] font-[700] text-[15px] leading-[20px] w-[244px]">3
+                                грузчика+
+                                ГАЗель</span>
+                            <span class="font-[700] text-[20px] leading-[27px] text-[#014DF5;]">от 250 ₽</span>
+                            <button
+                                class="py-[8px] px-[16px] rounded-[6px] bg-[#014DF5;] shadow-[0px 1px 4px rgba(0, 0, 0, 0.06);]э
+                                text-white font-[700] text-[15px] leading-[20px] hover:bg-blue-300 hover:text-black">Заказать</button>
+                        </div>
+                        <div
+                            class="w-[549px] bg-[#F5F7FE;] rounded-[15px] py-[30px] px-[20px] flex items-center justify-between">
+                            <span
+                                class="text-[#050505;] font-[700] text-[15px] leading-[20px] w-[244px]">Грузчики-такелажники</span>
+                            <span class="font-[700] text-[20px] leading-[27px] text-[#014DF5;]">от 400 ₽</span>
+                            <button
+                                class="py-[8px] px-[16px] rounded-[6px] bg-[#014DF5;] shadow-[0px 1px 4px rgba(0, 0, 0, 0.06);]э
+                                    text-white font-[700] text-[15px] leading-[20px] hover:bg-blue-300 hover:text-black">Заказать</button>
+                        </div>
+                        <div
+                            class="w-[549px] bg-transparent rounded-[15px] py-[30px] px-[20px] flex items-center justify-between">
+                            <span
+                                class="text-[#050505;] font-[700] text-[15px] leading-[20px] w-[244px]">Грузчик-сборщик
+                                мебели</span>
+                            <span class="font-[700] text-[20px] leading-[27px] text-[#014DF5;]">от 300 ₽</span>
+                            <button
+                                class="py-[8px] px-[16px] rounded-[6px] bg-[#014DF5;] shadow-[0px 1px 4px rgba(0, 0, 0, 0.06);]э
+                                    text-white font-[700] text-[15px] leading-[20px] hover:bg-blue-300 hover:text-black">Заказать</button>
+                        </div>
+                        <div
+                            class="w-[549px] bg-[#F5F7FE;] rounded-[15px] py-[30px] px-[20px] flex items-center justify-between">
+                            <span class="text-[#050505;] font-[700] text-[15px] leading-[20px] w-[244px]">Разгрузка
+                                стройматериалов</span>
+                            <span class="font-[700] text-[20px] leading-[27px] text-[#014DF5;]">от 250 ₽</span>
+                            <button
+                                class="py-[8px] px-[16px] rounded-[6px] bg-[#014DF5;] shadow-[0px 1px 4px rgba(0, 0, 0, 0.06);]э
+                                    text-white font-[700] text-[15px] leading-[20px] hover:bg-blue-300 hover:text-black">Заказать</button>
+                        </div>
+                    </div>
+                    <div class="ml-[30px] code-second">
+                        <div
+                            class="w-[549px] bg-[#F5F7FE;] rounded-[15px] py-[30px] px-[20px] flex items-center justify-between">
+                            <span class="text-[#050505;] font-[700] text-[15px] leading-[20px] w-[244px]">Разнорабочие
+                                недорого</span>
+                            <span class="font-[700] text-[20px] leading-[27px] text-[#014DF5;]">от 200 ₽</span>
+                            <button
+                                class="py-[8px] px-[16px] rounded-[6px] bg-[#014DF5;] shadow-[0px 1px 4px rgba(0, 0, 0, 0.06);]э
+                                text-white font-[700] text-[15px] leading-[20px] hover:bg-blue-300 hover:text-black">Заказать</button>
+                        </div>
+                        <div
+                            class="w-[549px] bg-transparent rounded-[15px] py-[30px] px-[20px] flex items-center justify-between">
+                            <span class="text-[#050505;] font-[700] text-[15px] leading-[20px] w-[244px]">Грузоперевозки
+                                недорого</span>
+                            <span class="font-[700] text-[20px] leading-[27px] text-[#014DF5;]">от 400 ₽</span>
+                            <button
+                                class="py-[8px] px-[16px] rounded-[6px] bg-[#014DF5;] shadow-[0px 1px 4px rgba(0, 0, 0, 0.06);]э
+                                text-white font-[700] text-[15px] leading-[20px] hover:bg-blue-300 hover:text-black">Заказать</button>
+                        </div>
+                        <div
+                            class="w-[549px] bg-[#F5F7FE;] rounded-[15px] py-[30px] px-[20px] flex items-center justify-between">
+                            <span
+                                class="text-[#050505;] font-[700] text-[15px] leading-[20px] w-[244px]">Упаковщик</span>
+                            <span class="font-[700] text-[20px] leading-[27px] text-[#014DF5;]">от 1600
+                                /смена</span>
+                            <button
+                                class="py-[8px] px-[16px] rounded-[6px] bg-[#014DF5;] shadow-[0px 1px 4px rgba(0, 0, 0, 0.06);]э
+                                text-white font-[700] text-[15px] leading-[20px] hover:bg-blue-300 hover:text-black">Заказать</button>
+                        </div>
+                        <div
+                            class="w-[549px] bg-transparent rounded-[15px] py-[30px] px-[20px] flex items-center justify-between">
+                            <span
+                                class="text-[#050505;] font-[700] text-[15px] leading-[20px] w-[244px]">Экспедитор</span>
+                            <span class="font-[700] text-[20px] leading-[27px] text-[#014DF5;]">от 400 ₽</span>
+                            <button
+                                class="py-[8px] px-[16px] rounded-[6px] bg-[#014DF5;] shadow-[0px 1px 4px rgba(0, 0, 0, 0.06);]э
+                                text-white font-[700] text-[15px] leading-[20px] hover:bg-blue-300 hover:text-black">Заказать</button>
+                        </div>
+                        <div
+                            class="w-[549px] bg-[#F5F7FE;] rounded-[15px] py-[30px] px-[20px] flex items-center justify-between">
+                            <span class="text-[#050505;] font-[700] text-[15px] leading-[20px] w-[244px]">Грузчики
+                                для
+                                юридических лиц</span>
+                            <span class="font-[700] text-[20px] leading-[27px] text-[#014DF5;]">от 300 ₽</span>
+                            <button
+                                class="py-[8px] px-[16px] rounded-[6px] bg-[#014DF5;] shadow-[0px 1px 4px rgba(0, 0, 0, 0.06);]э
+                                text-white font-[700] text-[15px] leading-[20px] hover:bg-blue-300 hover:text-black">Заказать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img class="w-[144px] h-[144px] mx-[-60px] mt-[-80px]" src="./img/sena-boll.png" alt="">
+        </div>
+        <!-- start-section-service -->
+        <div class="container w-[1140px] mx-auto mt-[88px]">
+            <div class="text-center">
+                <h2 class="text-[46px] font-[800] leading-[130%] text-[#050505]">Услуги</h2>
+                <img class="mx-auto mt-[10px] w-[78px] h-[15px]" src="./img/icons/main-logo.svg" alt="">
+            </div>
+            <div class="flex gap-[15px] mt-[93px] flex-wrap">
+                <div
+                    class="bg-[#F4F6F8;] rounded-[8px] w-[370px] pt-[60px] px-[30px] pb-[41px] flex flex-col items-center service__wrapper">
+                    <span class="w-[70px] h-[70px] bg-white inline-block rounded-[35px]"><img
+                            class="w-[50px] h-[50px] mx-auto my-[9px]" src="./img/icons/service-logo.svg" alt=""></span>
+                    <h3 class="font-[700] text-[24px] leading-[33px] mt-[30px]">Офисный переезд</h3>
+                    <p class="w-[310p] mt-[11px] text-center text-[16px] text-[#5A5A5A;]">Переезд двухкомнатной
+                        квартиры
+                        Сборка, разборка мебели из IKEA
+                        Смотреть все
+                    </p>
+                    <button
+                        class="py-[10px] px-[16px] bg-[#014DF5;] mt-[13px] text-white font-[700] leading-[19px] rounded-[4px] hover:bg-white hover:text-black">от
+                        250 ₽ / час</button>
+                </div>
+                <div
+                    class="bg-[#F4F6F8;] rounded-[8px] w-[370px] pt-[60px] px-[30px] pb-[41px] flex flex-col items-center service__wrapper">
+                    <span class="w-[70px] h-[70px] bg-white inline-block rounded-[35px]"><img
+                            class="w-[50px] h-[50px] mx-auto my-[9px]" src="./img/icons/service-logo.svg" alt=""></span>
+                    <h3 class="font-[700] text-[24px] leading-[33px] mt-[30px]">Офисный переезд</h3>
+                    <p class="w-[310p] mt-[11px] text-center text-[16px] text-[#5A5A5A;]">Переезд двухкомнатной
+                        квартиры
+                        Сборка, разборка мебели из IKEA
+                        Смотреть все
+                    </p>
+                    <button
+                        class="py-[10px] px-[16px] bg-[#014DF5;] mt-[13px] text-white font-[700] leading-[19px] rounded-[4px] hover:bg-white hover:text-black">от
+                        250 ₽ / час</button>
+                </div>
+                <div
+                    class="bg-[#F4F6F8;] rounded-[8px] w-[370px] pt-[60px] px-[30px] pb-[41px] flex flex-col items-center service__wrapper">
+                    <span class="w-[70px] h-[70px] bg-white inline-block rounded-[35px]"><img
+                            class="w-[50px] h-[50px] mx-auto my-[9px]" src="./img/icons/service-logo.svg" alt=""></span>
+                    <h3 class="font-[700] text-[24px] leading-[33px] mt-[30px]">Офисный переезд</h3>
+                    <p class="w-[310p] mt-[11px] text-center text-[16px] text-[#5A5A5A;]">Переезд двухкомнатной
+                        квартиры
+                        Сборка, разборка мебели из IKEA
+                        Смотреть все
+                    </p>
+                    <button
+                        class="py-[10px] px-[16px] bg-[#014DF5;] mt-[13px] text-white font-[700] leading-[19px] rounded-[4px] hover:bg-white hover:text-black">от
+                        250 ₽ / час</button>
+                </div>
+                <div
+                    class="bg-[#F4F6F8;] rounded-[8px] w-[370px] pt-[60px] px-[30px] pb-[41px] flex flex-col items-center service__wrapper">
+                    <span class="w-[70px] h-[70px] bg-white inline-block rounded-[35px]"><img
+                            class="w-[50px] h-[50px] mx-auto my-[9px]" src="./img/icons/service-logo.svg" alt=""></span>
+                    <h3 class="font-[700] text-[24px] leading-[33px] mt-[30px]">Офисный переезд</h3>
+                    <p class="w-[310p] mt-[11px] text-center text-[16px] text-[#5A5A5A;]">Переезд двухкомнатной
+                        квартиры
+                        Сборка, разборка мебели из IKEA
+                        Смотреть все
+                    </p>
+                    <button
+                        class="py-[10px] px-[16px] bg-[#014DF5;] mt-[13px] text-white font-[700] leading-[19px] rounded-[4px] hover:bg-white hover:text-black">от
+                        250 ₽ / час</button>
+                </div>
+                <div
+                    class="bg-[#F4F6F8;] rounded-[8px] w-[370px] pt-[60px] px-[30px] pb-[41px] flex flex-col items-center service__wrapper">
+                    <span class="w-[70px] h-[70px] bg-white inline-block rounded-[35px]"><img
+                            class="w-[50px] h-[50px] mx-auto my-[9px]" src="./img/icons/service-logo.svg" alt=""></span>
+                    <h3 class="font-[700] text-[24px] leading-[33px] mt-[30px]">Офисный переезд</h3>
+                    <p class="w-[310p] mt-[11px] text-center text-[16px] text-[#5A5A5A;]">Переезд двухкомнатной
+                        квартиры
+                        Сборка, разборка мебели из IKEA
+                        Смотреть все
+                    </p>
+                    <button
+                        class="py-[10px] px-[16px] bg-[#014DF5;] mt-[13px] text-white font-[700] leading-[19px] rounded-[4px] hover:bg-white hover:text-black">от
+                        250 ₽ / час</button>
+                </div>
+                <div
+                    class="bg-[#F4F6F8;] rounded-[8px] w-[370px] pt-[60px] px-[30px] pb-[41px] flex flex-col items-center service__wrapper">
+                    <span class="w-[70px] h-[70px] bg-white inline-block rounded-[35px]"><img
+                            class="w-[50px] h-[50px] mx-auto my-[9px]" src="./img/icons/service-logo.svg" alt=""></span>
+                    <h3 class="font-[700] text-[24px] leading-[33px] mt-[30px]">Офисный переезд</h3>
+                    <p class="w-[310p] mt-[11px] text-center text-[16px] text-[#5A5A5A;]">Переезд двухкомнатной
+                        квартиры
+                        Сборка, разборка мебели из IKEA
+                        Смотреть все
+                    </p>
+                    <button
+                        class="py-[10px] px-[16px] bg-[#014DF5;] mt-[13px] text-white font-[700] leading-[19px] rounded-[4px] hover:bg-white hover:text-black">от
+                        250 ₽ / час</button>
+                </div>
+            </div>
+        </div>
+        <!-- end-section-service -->
+        <div class="w-[1140px] bg-[#014DF5;] mt-[69px] mx-auto"></div>
+        <!-- start-section-detail -->
+        <section>
+            <div class=" container bg-[#014DF5;] w-[1279px] mx-auto flex items-center gap-[55px] pb-[70px]">
+                <div class="pl-[70px] pt-[108px] w-[555px]">
+                    <img class="text-white" src="./img/icons/main-logo-white.svg" alt="">
+                    <h2 class="text-white text-[40px] font-[800] mt-[20px] leading-[130%]">Рассчитайте стоимость
+                        услуг грузчиков
+                        в городе Екатеринбурге</h2>
+                    <form action="">
+                        <input
+                            class="p-[20px] w-[555px] bg-transparent border-solid border-2 border-[#E6EDFE;] mt-[60px] outline-none"
+                            type="tel" id="tel" placeholder="+7 9ххх ххх хх хх">
+                        <button
+                            class="w-[555px] bg-white text-[18px;] font-[600] py-[20px] mt-[22px] hover:bg-blue-200">Рассчитать</button>
+                        <div class="mt-[20px] flex gap-[10px] items-center">
+                            <input type="checkbox"><span
+                                class="text-white text-[10px;] font-[400] leading-[14px] tracking-[0.01em;]">Отправляя
+                                форму
+                                Вы
+                                соглашаетесь с обработкой персональных данных и
+                                политикой конфеденциальности</span>
+                    </form>
+                </div>
+            </div>
+            <div class="ml-[65px] flex items-center gap-[65px]">
+                <div>
+                    <div>
+                        <p class="text-white text-[20px] font-[600] leading-[26px]">Количество грузчиков:</p>
+                        <input class="w-[208px] h-[70px] city text-center mt-[15px] rounded-[8px]" type="number"
+                            placeholder="2">
+                    </div>
+                    <div class="mt-[30px]">
+                        <p class="text-white text-[20px] font-[600] leading-[26px]">Количество часов:</p>
+                        <input class="w-[208px] h-[70px] city text-center mt-[15px] rounded-[8px]" type="number"
+                            placeholder="2">
+                    </div>
+                    <div class="mt-[30px]">
+                        <p class="text-white text-[20px] font-[600] leading-[26px]">Услуга:</p>
+                        <select class="w-[208px] h-[70px] mt-[15px] rounded-[8px] text-center font-[700] text-[16px]"
+                            name="" id="">
+                            <option value="">Выбрать из списка</option>
+                            <option value="">choose...</option>
+                            <option value="">choose...</option>
+                        </select>
+                    </div>
+                    <div class="mt-[40px]">
+                        <p class="text-[20px] font-[600] text-white">Наличие лифта:</p>
+                        <div class="flex gap-[28px] items-center">
+                            <div class="flex items-center gap-[10px]">
+                                <input class="w-[21px] h-[21px]" type="checkbox"><span
+                                    class="text-[16px] font-[600] text-white">Есть</span>
+                            </div>
+                            <div class="flex items-center gap-[10px]">
+                                <input class="w-[21px] h-[21px]" type="checkbox"><span
+                                    class="text-[16px] font-[600] text-[#A5BCEE]">Нет</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <p class="text-white text-[20px] font-[600] leading-[26px]">Этаж::</p>
+                        <select class="w-[208px] h-[70px] mt-[15px] rounded-[8px] text-center font-[700] text-[24px]">
+                            <option value="">11</option>
+                            <option value="">12</option>
+                            <option value="">13</option>
+                        </select>
+                    </div>
+                    <div class="mt-[30px]">
+                        <p class="text-white text-[20px] font-[600] leading-[26px]">Желаемая дата:</p>
+                        <input class="w-[208px] h-[70px] city text-center mt-[15px] rounded-[8px]" type="date">
+                    </div>
+                    <div class="mt-[30px]">
+                        <p class="text-white text-[20px] font-[600] leading-[26px]">Желаемое время:</p>
+                        <input class="w-[208px] h-[70px] city text-center mt-[15px] rounded-[8px]" type="time">
+                    </div>
+                    <div class="mt-[40px]">
+                        <p class="text-[20px] font-[600] text-white">Наличие лифта:</p>
+                        <div class="flex gap-[28px] items-center">
+                            <div class="flex items-center gap-[10px]">
+                                <input class="w-[21px] h-[21px]" type="checkbox"><span
+                                    class="text-[16px] font-[600] text-white">Есть</span>
+                            </div>
+                            <div class="flex items-center gap-[10px]">
+                                <input class="w-[21px] h-[21px]" type="checkbox"><span
+                                    class="text-[16px] font-[600] text-[#A5BCEE]">Нет</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- end-section-detail -->
+        <!-- start-section-dominant -->
+        <section>
+            <div class="container w-[1140px] mx-auto mt-[111px]">
+                <div class="mx-auto text-center">
+                    <img class="mx-auto" src="./img/icons/main-logo.svg" alt="">
+                    <h2 class="text-[46px] font-[800] leading-[130%] mt-[13px]">Почему выбирают DOMINANT</h2>
+                    <div
+                        class="w-[1140px] h-[1px] border-dashed border-2 border-blue-300 relative top-[220px] opacity-50">
+                    </div>
+                    <div class="flex mt-[85px] gap-[30px]">
+                        <div
+                            class="w-[260px] text-center rounded-[10px] flex flex-col items-center justify-center pt-[26px] px-[36px] pb-[50px] dominant__wrapper">
+                            <span class="w-[80px] h-[80px] bg-[#E6EDFE;] inline-block rounded-[100%] "><img
+                                    class="w-[45px] h-[45px] mx-auto mt-[14px]" src="./img/icons/dominant-logo.svg"
+                                    alt=""></span>
+                            <img class="w-[10px] h-[10px] mt-[23px] relative" src="./img/icons/dominant-boll.svg"
+                                alt="">
+                            <p class="font-[600] text-[22px] leading-[130%] text-[#050505;] mt-[31px]">Всегда трезвые
+                                грузчики
+                            </p>
+                        </div>
+                        <div
+                            class="w-[260px] text-center rounded-[10px] flex flex-col items-center justify-center pt-[26px] px-[36px] pb-[50px] dominant__wrapper">
+                            <span class="w-[80px] h-[80px] bg-[#E6EDFE;] inline-block rounded-[100%] "><img
+                                    class="w-[45px] h-[45px] mx-auto mt-[14px]" src="./img/icons/dominant-logo.svg"
+                                    alt=""></span>
+                            <img class="w-[10px] h-[10px] mt-[23px] relative" src="./img/icons/dominant-boll.svg"
+                                alt="">
+                            <p class="font-[600] text-[22px] leading-[130%] text-[#050505;] mt-[31px]">Приезжаем вовремя
+                            </p>
+                        </div>
+                        <div
+                            class="w-[260px] text-center rounded-[10px] flex flex-col items-center justify-center pt-[26px] px-[36px] pb-[50px] dominant__wrapper">
+                            <span class="w-[80px] h-[80px] bg-[#E6EDFE;] inline-block rounded-[100%] "><img
+                                    class="w-[45px] h-[45px] mx-auto mt-[14px]" src="./img/icons/dominant-logo.svg"
+                                    alt=""></span>
+                            <img class="w-[10px] h-[10px] mt-[23px] relative" src="./img/icons/dominant-boll.svg"
+                                alt="">
+                            <p class="font-[600] text-[22px] leading-[130%] text-[#050505;] mt-[31px]">Любой вид оплаты
+                            </p>
+                        </div>
+                        <div
+                            class="w-[260px] text-center rounded-[10px] flex flex-col items-center justify-center pt-[26px] px-[36px] pb-[50px] dominant__wrapper">
+                            <span class="w-[80px] h-[80px] bg-[#E6EDFE;] inline-block rounded-[100%] "><img
+                                    class="w-[45px] h-[45px] mx-auto mt-[14px]" src="./img/icons/dominant-logo.svg"
+                                    alt=""></span>
+                            <img class="w-[10px] h-[10px] mt-[23px] relative" src="./img/icons/dominant-boll.svg"
+                                alt="">
+                            <p class="font-[600] text-[22px] leading-[130%] text-[#050505;] mt-[31px]">Работаем
+                                круглосуточно
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end-section-dominant -->
+        <!-- start-section-header -->
+        <section>
+            <div class="container w-[1140px] mx-auto mt-[120px]">
+                <div class="flex items-stretch gap-[15px]">
+                    <img src="./img/header-img.png" alt="">
+                    <div class="mt-[85px]">
+                        <img src="./img/icons/main-logo.svg" alt="">
+                        <h2 class="text-[40px] font-[800] leading-[130%] text-[#050505;] mt-[13px]">Заголовок для
+                            текстового
+                            блока</h2>
+                        <p class="text-[#5A5A5A;] text-[14px] font-[600] leading-[150%]">Услуги грузчиков необходимы при
+                            переезде, осуществлении
+                            строительных
+                            и ремонтных работ. В
+                            нашей компании «Доминант» вы можете заказать услуги грузчика недорого в любое удобное для
+                            вас время. Работаем аккуратно с хрупкими грузами, которые требуют повышенной осторожности.
+                        </p>
+                        <p class="text-[#050505;] text-[14px] font-[600] leading-[150%] mt-[25px]">Заказать услуги
+                            грузчиков в
+                            Омске и быть уверенным в качественной работе можно по телефону +7(995) 999-50-38.
+                        </p>
+                        <button
+                            class="py-[7px] px-[16px] border-solid border-2 border-indigo-600 rounded-[6px] font-[500] text-[14px] text-[black] mt-[45px] hover:bg-blue-500 hover:text-white hover:border-none">Читать
+                            далее</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end-section-header -->
+        <!-- start-section-header -->
+        <!-- start-section-consultation -->
+        <section>
+            <div class="container w-[1140px] mx-auto bg-[#014DF5;] rounded-[10px]">
+                <div class="py-[59px] pr-[100px] pl-[70px] flex gap-[50px] items-stretch">
+                    <div>
+                        <h2 class="font-[700] text-[40px] text-[white] w-[570px] leading-[130%;]">Бесплатная
+                            консультация
+                            ЗА 30 СЕКУНД <img class="relative left-[300px] w-[78px] h-[15px] bottom-[30px]"
+                                src="./img/icons/main-logo-white.svg" alt=""></h2>
+                        <p class="font-[600] text-[22px] text-[#E6EDFE;] w-[573px] leading-[130%;]">Позвоните нам прямо
+                            сейчас и мы
+                            ответим на все
+                            Ваши вопросы</p>
+                        <div class="mt-[30px] flex gap-[10px] items-center">
+                            <img class="w-[29px] h-[29px]" src="./img/icons/consultation-Phone.svg" alt="">
+                            <a class="font-[800] text-white text-[30px]" href="+7 (995) 999-50-38" target="_blank">+7
+                                (995) 999-50-38</a>
+                        </div>
+                    </div>
+                    <div>
+                        <form action="https://google.com">
+                            <input class="bg-[#3775FF;] text-white p-[15px] h-[67px] mt-[10px] w-[400px]  rounded-[6px]"
+                                type="tel" id="tel" placeholder="+7 9ххх ххх хх хх">
+                            <button
+                                class="bg-white py-[15px] w-[400px] h-[67px] mt-[25px] rounded-[6px]">Отправить</button>
+                            <div class="flex mt-[40px] items-stretch gap-[5px]">
+                                <input class="w-[15px] h-[15px]" type="checkbox">
+                                <p class="text-[12px] font-[400] w-[380px] tracking-[0.01em;] text-white">Отправляя
+                                    форму Вы соглашаетесь с обработкой персональных данных и политикой
+                                    конфеденциальности</p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- end-section-consultation -->
+        <!-- start-section-dokument -->
+        <section>
+            <div class="container w-[1140px] mx-auto mt-[120px]">
+                <div class="flex">
+                    <div>
+                        <h2 class="text-[46px] font-[800] text-[#050505;] leading-[ 130%;]">Нас выбирают</h2>
+                        <img src="./img/icons/main-logo.svg" alt="">
+                        <p class="w-[551px] text-[16px] font-[600] text-[#5A5A5A;] mt-[45px]">Стоит также отметить, что
+                            грузчики
+                            в Омске работают круглосуточно. Таким образом, при
+                            переезде вы можете воспользоваться услугами в ночное время и избежать пробок, сэкономив при
+                            этом.
+                            <br>
+                            <br> Стоимость услуг грузчиков можно узнать заполнив форму обратной связи на сайте или
+                            позвонив
+                            по номеру +7(995) 999-50-38.</p>
+                        <button
+                            class="py-[7px] px-[16px] bg-white border-solid border-2 border-[#014DF5;] mt-[39px] rounded-[6px] font-[500] hover:bg-blue-500 hover:text-white">Читать
+                            далее</button>
+                    </div>
+                    <div class="flex gap-[10px]">
+                        <img class="w-[192px] h-[273px] dokument" src="./img/dokument-img.png" alt="">
+                        <img class="w-[192px] h-[273px] dokument" src="./img/dokument-img.png" alt="">
+                        <img class="w-[192px] h-[273px] dokument" src="./img/dokument-img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end-section-dokument -->
+        <!-- start-section-reviews -->
+        <section>
+            <div class="container w-[1140px] mt-[120px] mx-auto mb-[30px]">
+                <h2 class="text-[46px] font-[800] text-[#050505;]">Отзывы о нас</h2>
+                <div class="flex mt-[36px] gap-[32px]">
+                    <div class="bg-white w-[555px] px-[30px] py-[40px] reviews__wrapper rounded-[10px]">
+                        <div class="flex items-center gap-[15px]">
+                            <div
+                                class="w-[50px] h-[50px] bg-[#E6EDFE;] flex justify-center items-center rounded-[100%]">
+                                <span class="text-[21px] font-[800] text-[#014DF5;]">А</span></div>
+                            <div>
+                                <span class="text-[14px] font-[600] text-[#014DF5;]">Александр К.</span>
+                                <p class="text-[12px] font-[600] text-[#5A5A5A;]">г. Екатеринбург</з>
+                            </div>
+                            <div class="ml-[200px] flex items-center gap-[5px]">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                            </div>
+                        </div>
+                        <p class="mt-[20px] text-[16px] font-[600] text-[#050505; w-[492px]]">Заказывали квартирный
+                            переезд
+                            по городу. С проблемами и несостыковками не столкнулись.
+                            Из чего делаю вывод, что компания надежная, рекомендую.</p>
+                        <br>
+                        <a class=" text-[16px] font-[600] text-[#014DF5] underline underline-offset-4" href="#"
+                            target="_blank">Читать далее</a>
+                    </div>
+                    <div class="bg-white w-[555px] px-[30px] py-[40px] reviews__wrapper rounded-[10px]">
+                        <div class="flex items-center gap-[15px]">
+                            <div
+                                class="w-[50px] h-[50px] bg-[#E6EDFE;] flex justify-center items-center rounded-[100%]">
+                                <span class="text-[21px] font-[800] text-[#014DF5;]">У</span></div>
+                            <div>
+                                <span class="text-[14px] font-[600] text-[#014DF5;]">Ульяна М.</span>
+                                <p class="text-[12px] font-[600] text-[#5A5A5A;]">г. Екатеринбург</з>
+                            </div>
+                            <div class="ml-[200px] flex items-center gap-[5px]">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                                <img src="./img/icons/star.svg" alt="">
+                            </div>
+                        </div>
+                        <p class="mt-[20px] text-[16px] font-[600] text-[#050505; w-[492px]]">Хочу выразить
+                            благодарность фирме Доминант. Действительно помогли, разгрузили меня морально и фактически.
+                            Это очень экономит время и нервы и конечно...</p>
+                        <br>
+                        <a class=" text-[16px] font-[600] text-[#014DF5] underline underline-offset-4" href="#"
+                            target="_blank">Читать далее</a>
+                    </div>
+                </div>
+                <h2 class="mt-[85px] text-[46px] text-[#050505;] font-[800]">Видео отзывы</h2>
+                <div class="flex items-center gap-[28px] mt-[40px]">
+                    <div class="review-block w-[353px] h-[276px] rounded-[10px]">
+                        <a class="relative top-[108px] left-[147px]" href="https://youtube.com"><img
+                                src="./img/icons/review-logo.svg" alt=""></a>
+                        <div class="relative top-[140px] left-[25px]">
+                            <p class="text-[18px] font-[700] text-white">Ульяна М.</p>
+                            <p class="text-[16px] font-[600] text-white">Квартирный переезд . г. Москва</p>
+                        </div>
+                    </div>
+                    <div class="review-block-second w-[353px] h-[276px] rounded-[10px]">
+                        <a class="relative top-[108px] left-[147px]" href="https://youtube.com"><img
+                                src="./img/icons/review-logo.svg" alt=""></a>
+                        <div class="relative top-[140px] left-[25px]">
+                            <p class="text-[18px] font-[700] text-white">Ульяна М.</p>
+                            <p class="text-[16px] font-[600] text-white">Квартирный переезд . г. Москва</p>
+                        </div>
+                    </div>
+                    <div class="review-block-third w-[353px] h-[276px] rounded-[10px]">
+                        <a class="relative top-[108px] left-[147px]" href="https://youtube.com"><img
+                                src="./img/icons/review-logo.svg" alt=""></a>
+                        <div class="relative top-[140px] left-[25px]">
+                            <p class="text-[18px] font-[700] text-white">Ульяна М.</p>
+                            <p class="text-[16px] font-[600] text-white">Квартирный переезд . г. Москва</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end-section-reviews -->
+        <!-- start-section-help -->
+        <section>
+            <div class="conatiner mt-[136px] w-[1140px] mx-auto">
+                <div class="mx-auto w-[399px]">
+                    <h2 class="text-[46px] text-[#050505;] font-[800] text-center">Мы поможем Вам</h2>
+                    <img class="mx-auto" src="./img/icons/main-logo.svg" alt="">
+                </div>
+                <div class="flex mt-[60px] gap-[74px]">
+                    <div>
+                        <div class="bg-white p-[25px] w-[529px] help__wrapper flex gap-[20px] rounded-[10px]">
+                            <img class="w-[72px] h-[72px]" src="./img/help-img.png" alt="">
+                            <div>
+                                <p class="text-[18px] font-[700] text-[#050505;] ">Сэкономить время на переезд</p>
+                                <p class="w-[333px] text-[14px] text-#5A5A5A;font-[600] opacity-[0.7] mt-[5px]">наши
+                                    опытные грузчики приедут во-время, упакуют аккуратно все вещи, бережно погрузят,
+                                    перевезут, распакуют и расставят по местам</p>
+                            </div>
+                        </div>
+                        <div class="bg-white p-[25px] w-[529px] help__wrapper flex gap-[20px] rounded-[10px] mt-[22px]">
+                            <img class="w-[72px] h-[72px]" src="./img/help-img.png" alt="">
+                            <div>
+                                <p class="text-[18px] font-[700] text-[#050505;] ">Сэкономить время на переезд</p>
+                                <p class="w-[333px] text-[14px] text-#5A5A5A;font-[600] opacity-[0.7] mt-[5px]">наши
+                                    опытные грузчики приедут во-время, упакуют аккуратно все вещи, бережно погрузят,
+                                    перевезут, распакуют и расставят по местам</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="bg-white p-[25px] w-[529px] help__wrapper flex gap-[20px] rounded-[10px]">
+                            <img class="w-[72px] h-[72px]" src="./img/help-img.png" alt="">
+                            <div>
+                                <p class="text-[18px] font-[700] text-[#050505;] ">Сэкономить время на переезд</p>
+                                <p class="w-[333px] text-[14px] text-#5A5A5A;font-[600] opacity-[0.7] mt-[5px]">наши
+                                    опытные грузчики приедут во-время, упакуют аккуратно все вещи, бережно погрузят,
+                                    перевезут, распакуют и расставят по местам</p>
+                            </div>
+                        </div>
+                        <div class="bg-white p-[25px] w-[529px] help__wrapper flex gap-[20px] rounded-[10px] mt-[22px]">
+                            <img class="w-[72px] h-[72px]" src="./img/help-img.png" alt="">
+                            <div>
+                                <p class="text-[18px] font-[700] text-[#050505;] ">Сэкономить время на переезд</p>
+                                <p class="w-[333px] text-[14px] text-#5A5A5A;font-[600] opacity-[0.7] mt-[5px]">наши
+                                    опытные грузчики приедут во-время, упакуют аккуратно все вещи, бережно погрузят,
+                                    перевезут, распакуют и расставят по местам</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="popular mt-[118px]">
+                    <div class="mx-auto w-[622px] text-center">
+                        <h2 class="text-[46px] text-[#050505;] font-[800]">Самые популярные услуги</h2>
+                        <p class="text-[18px] text-[#014DF5;] font-[500]">от перевозки антиквариата до бытовой техники
+                        </p>
+                    </div>
+                    <div class="flex mt-[75px] gap-[23px]">
+                        <div
+                            class="w-[370px] bg-[#F4F6F8;] rounded-[8px] flex flex-col items-center justify-center popular__wrapper  pt-[60px] px-[30px] pb-[42px]">
+                            <div class="w-[70px] h-[70px] bg-white rounded-[50%] flex justify-center items-center">
+                                <img class="w-[69px] h-[41px]" src="./img/icons/popular-logo.svg" alt=""></div>
+                            <p class="text-[24px] font-[700] mt-[30px] text-[#090E18]; text-center">Офисные переезды
+                                “под ключ”
+                                с
+                                грузчиками</p>
+                            <button
+                                class="py-[10px] px-[16px] bg-[#014DF5;]  text-white font-[700] leading-[19px] rounded-[4px] mt-[31px] hover:bg-blue-300 hover:text-black">от
+                                250 ₽ / час</button>
+
+                        </div>
+                        <div
+                            class="w-[370px] bg-[#F4F6F8;] rounded-[8px] flex flex-col items-center justify-center  popular__wrapper pt-[60px] px-[30px] pb-[42px]">
+                            <div class="w-[70px] h-[70px] bg-white rounded-[50%] flex justify-center items-center">
+                                <img class="w-[69px] h-[41px]" src="./img/icons/popular-logo.svg" alt=""></div>
+                            <p class="text-[24px] font-[700] mt-[30px] text-[#090E18]; text-center">Перевозка мебели с
+                                грузчиками</p>
+                            <button
+                                class="py-[10px] px-[16px] bg-[#014DF5;]  text-white font-[700] leading-[19px] rounded-[4px] mt-[31px] hover:bg-blue-300 hover:text-black">от
+                                250 ₽ / час</button>
+
+                        </div>
+                        <div
+                            class="w-[370px] bg-[#F4F6F8;] rounded-[8px] flex flex-col items-center justify-center  popular__wrapper pt-[60px] px-[30px] pb-[42px]">
+                            <div class="w-[70px] h-[70px] bg-white rounded-[50%] flex justify-center items-center">
+                                <img class="w-[69px] h-[41px]" src="./img/icons/popular-logo.svg" alt=""></div>
+                            <p class="text-[24px] font-[700] mt-[30px] text-[#090E18]; text-center">Квартирный переезд с грузчиками
+                            </p>
+                            <button
+                                class="py-[10px] px-[16px] bg-[#014DF5;]  text-white font-[700] leading-[19px] rounded-[4px] mt-[31px] hover:bg-blue-300 hover:text-black">от
+                                250 ₽ / час</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end-section-help-->
+    </main>
+</body>
+
+</html>
